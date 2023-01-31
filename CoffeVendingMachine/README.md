@@ -1,13 +1,15 @@
-# Sample Hardhat Project
+# Coffee Vending Machine Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project Buys Coffee Tokens in exchange for ETH, purchase coffee with tokens or transfer tokens to others
 
 Try running some of the following tasks:
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
 npx hardhat node
-npx hardhat run scripts/deploy.js
+npx hardhat run scripts/deploy.js --network localhost
+##for live network
+npx hardhat run scripts/deploy.js --network goerli
+
+npx hardhat test
+
 ```
